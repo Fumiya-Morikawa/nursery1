@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+html,body,p, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.header {
+	height: 48px;
+	background-color: rgba(34,49,52,0.9);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.header-container {
+	padding-top: 16px;
+	width: 100%;
+}
+
+.background-wrapper {
+	background-image: url(../img/image.png);
+	background-size: cover;
+}
+
+.list-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	text-align: center;
+	display: brock;
+}
+
+.list-container {
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: left;
+	display: inline-block;
+}
+
+.list-container h1 {
+    font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.main-container {
+	display: inline-block;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 24px;
+}
+
+.toppage {
+    display: inline-block;
+	padding: 8px 24px;
+	margin: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+
+.toppage:hover {
+	opacity: 1;
+}
+
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	border-top: solid 1px #eee;
+	color: #b3aeb5;
+}
+
+.footer-container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
